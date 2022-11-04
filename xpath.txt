@@ -1,0 +1,17 @@
+Types of xpath:
+1) Absolute Xpath : we use "/" in absolute xpath,In absolute xpath we can travel from root element to its immediate child and reach to our elemennt 
+2) Relative Xpath : we can use "//" In relatieve xpath we can directly jump to required element 
+
+Types of Relative xpath :
+1) Xpath by Attribute : //tagname[@attribute name = 'attribute value']
+2) Xpath by text() :    //tagname[text()='text present in the element']
+3) Xpath by contains : //taxgname[contains(@attribute name, 'attribute value')]
+4) Xpath by Index : (any xpath)[index]
+
+
+Dynamic xpath :
+
+1) Ancestor : Select all ancestor of all current node (parent,grandparent,etc)
+2) Descendent : Select all descendent of all current node (children, grandchildren, etc)
+3) Parent : Select the parent of current node
+4) child : Select the children of the current node
